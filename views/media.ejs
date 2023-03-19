@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Média</title>
+</head>
+<body>
+    <form method="POST" action="/media">
+        <label form="pratica">Nota da Atividade prática em laboratório:</label>
+        <input type="number" name="pratica" id="pratica" required><br><br>
+        <label form="prova">Nota da Prova:</label>
+        <input type="number" name="prova" id="prova" required><br><br>
+        <label form="trabalho">Nota do Trabalho teórico:</label>
+        <input type="number" name="trabalho" id="trabalho" required><br><br>
+        
+        <button type="submit">Salvar</button>
+    </form>
+
+    <h1><%= message %></h1>
+    
+</body>
+</html>
